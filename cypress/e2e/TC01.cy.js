@@ -5,7 +5,8 @@ TestFilters([], () => {
         before(() => {
             cy.visit('https://wikipedia.org')
         })
-
+/* you can implement pageobject model here.
+*/
         it('Validate Page Title', () => {
             cy.title().should('eq', 'Wikipedia')
         })
